@@ -58,13 +58,14 @@ def django_class_view(request):
 
 def all_view(request):
     allObj = DjangoClass.objects.all()
-    listObj = {
+    
+    context = {
         # 'name':allObj.name,
         # 'nickname':allObj.nickname,
         # 'age':allObj.age,
-        'allObj':allObj
+        'allObj' : allObj
     }
-    return render(request,'djangoClass.html',(listObj))
+    return render(request,'djangoClass.html',(context))
 
 # def django_class_view(TemplateView):
 #     maxId = DjangoClass.objects.count()

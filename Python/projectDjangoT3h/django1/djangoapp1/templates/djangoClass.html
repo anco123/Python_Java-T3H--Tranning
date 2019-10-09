@@ -13,6 +13,10 @@
 {% endblock %}
 {% endblock %}
 
+{% block switchPagesLink %}
+  <a href="{% url "detail" %}"></a>
+{% endblock %}
+
 
 <!-- {% block template %}
 <p>This is more about stuff 22 {{ nickname }}</p>
@@ -36,11 +40,13 @@
   	<td>nickname</td>
   	<td>age</td>
   </tr>
+  {% for entryListStudent in allObj %}
   <tr>
-    <td>  {{allObj.id}} </td>
-    <td>   {{allObj.name}} </td>
-    <td>  {{allObj.nickname}} </td>
-    <td>   {{allObj.age}} </td>
+    <td>  {{entryListStudent.id}} </td>
+    <td>   {{entryListStudent.name}} </td>
+    <td>  {{entryListStudent.nickname}} </td>
+    <td>   {{entryListStudent.age}} </td>
+    {% endfor %}
   </tr>   
 </table>
 {% endblock %}
