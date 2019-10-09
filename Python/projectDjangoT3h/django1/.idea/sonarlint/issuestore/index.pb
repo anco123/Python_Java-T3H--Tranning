@@ -1,0 +1,33 @@
+
+?
+django1/urls.py,9\9\992f1115ac0212d71106017cb662a65575fbf6f9
+Q
+!djangoapp1/migrations/__init__.py,f\a\fa766251b5659b2d1fe766755102bd053cab0977
+U
+%djangoapp1/migrations/0001_initial.py,3\1\31357e162b419439fdebc95b46adb5ad58b15c33
+Y
+)djangoapp1/migrations/0002_djangoclass.py,9\d\9d976dc1f64efbd852196a69601e388759ad26a6
+P
+ djangoapp1/templates/insert.html,2\1\214663924519c58dcc8842feced3090226a86d87
+U
+%djangoapp1/templates/djangoClass.html,0\b\0b50942c719a4181b9a9c759d463a31d80b6ee91
+T
+$djangoapp1/templates/helloworld.html,c\2\c2bb2aaf3e597ea8b06e3567a12b9e0be298906a
+N
+djangoapp1/templates/base.html,b\9\b97a806ca8f9aa5ce78b8d246b627fca842fd108
+O
+djangoapp1/templates/about.html,b\0\b07a98c2d7acd9b84a050a0fb3b9ecdf7937b375
+B
+djangoapp1/apps.py,c\d\cdecf6dc0c829d9b76b7e74cbf98ef4cfe252530
+C
+djangoapp1/admin.py,f\e\fea1e477b7e751e4d5eee69610fb94ff7a9fb888
+C
+djangoapp1/tests.py,5\3\53d74a5f4c273cf2ce7e8653777e2c9992acba5d
+D
+djangoapp1/models.py,c\5\c5a97a394a96367bbb5b95ed5fbb9e362752c752
+B
+djangoapp1/urls.py,3\b\3b914082b5e4bea496b0008ff3d0408ba7af7704
+C
+djangoapp1/views.py,a\b\abdd82d30c39eb84385d83a40e06482098e2c306
+C
+django1/settings.py,f\d\fd502e8a4e5186f023a252e4fe370cef5651f290

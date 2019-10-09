@@ -1,0 +1,19 @@
+{% extends 'base_newform.html' %}
+
+{% block newform %} 
+<!-- <form method="GET" > {% csrf_token %} --><!-- 
+
+	<input type="submit" value='Save'>
+	{{ form.as_p }} -->
+		<!-- <input type="hidden" id="csrf_token" value='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'> -->
+<!-- </form> -->
+
+<form action="." method="GET" > {% csrf_token %}
+	<input type="text" name="title" placeholder="enter some value">
+	<input type="submit" value="save">
+	{{title}}
+
+
+</form>
+{% endblock %}
+

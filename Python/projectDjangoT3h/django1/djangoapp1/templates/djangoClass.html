@@ -1,0 +1,67 @@
+{% extends "base_djangoClass.html" %}
+
+{% block head_title %}{{nickname}}{% endblock %}
+
+{% block content %}
+<p>This is more about stuff {{ nickname }}</p>
+<h1>{{ name }}</h1>
+{% endblock %}
+
+{% block aaa %}
+{% block abc %}
+<div>{% include "helloworld.html" %} </div>
+{% endblock %}
+{% endblock %}
+
+
+<!-- {% block template %}
+<p>This is more about stuff 22 {{ nickname }}</p>
+<h1>{{ lst }}</h1>
+
+<h1>Members</h1>
+<ul>
+{% for mylst in lst %}
+  <li>{{ mylst }}</li>
+{% endfor %}
+</ul>
+{% endblock %} -->
+
+{% block table %}
+
+<table>
+
+  <tr>
+  	<td>id</td>
+  	<td>name</td>
+  	<td>nickname</td>
+  	<td>age</td>
+  </tr>
+  <tr>
+    <td>  {{allObj.id}} </td>
+    <td>   {{allObj.name}} </td>
+    <td>  {{allObj.nickname}} </td>
+    <td>   {{allObj.age}} </td>
+  </tr>   
+</table>
+{% endblock %}
+
+
+
+
+
+{% block newform %} 
+<form method="POST" > 
+	<input type="submit" value='Save'>
+	{{ form }}
+	{% csrf_token %}
+	<!-- <input type="hidden" id="csrf_token" value='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'> -->
+</form>
+<!-- 
+<form action="search" method="get" > {% csrf_token %}
+	<input type="text" name="q" placeholder="enter some value">
+	<<input type="submit" value="save">
+
+
+</form> -->
+{% endblock %}
+

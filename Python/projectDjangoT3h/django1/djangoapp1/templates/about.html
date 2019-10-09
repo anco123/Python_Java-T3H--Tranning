@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block head_title %}{{title}}{% endblock %}
+
+{% block content %}
+<p>This is more about stuff {{ title }}</p>
+{% endblock %}
+
+{% block aaa %}
+{% block abc %}
+<div>{% include "helloworld.html" %} </div>
+{% endblock %}
+{% endblock %}
+
