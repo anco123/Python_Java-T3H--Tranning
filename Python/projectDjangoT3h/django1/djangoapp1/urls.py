@@ -28,6 +28,6 @@ urlpatterns = [
     path('allobjetcs/', all_view),
     path('form/',forms_view),
     # path('raw/',raw_html_view),
-    # path('dataJson/', include(router.urls)),  trong link url'' có một số keyword không được phép đặt, ví dụ như 'api nếu như đặt nó sẽ không nhận url đó'
+    path('dataJson/', include(router.urls)), #  trong link url'' có một số keyword không được phép đặt, ví dụ như 'api nếu như đặt nó sẽ không nhận url đó'
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
