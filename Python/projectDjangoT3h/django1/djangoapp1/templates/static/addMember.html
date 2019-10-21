@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+            $("#buttonId").click(function(e) {
+                e.preventDefault();
+                var inputName = $("#inputNameId").val();
+                var inputNickname = $("#inputNicknameId").val();
+                // var inputUserName = $("#inputUserNameId").val();
+
+                var inputAge = $("#inputAgeId").val();
+                // var inputPhoneNumber = $("#inputPhoneNumberId").val();
+                // var inputEmailPassword = $("#inputEmailPasswordId").val();
+                // var inputUsernamePassword = $("#inputUsernamePasswordId").val();
+
+                
+                // alert(inputEmailPassword)
+               
+                $.ajax({
+                url:'http://127.0.0.1:8000/dataJson/class/',
+                type:'POST',
+                // dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                data: JSON.stringify({
+                    name : inputName, 
+                    nickname : inputNickname,
+                    // cn: inputUserName,
+                    age : inputAge,
+                    // telephoneNumber : inputPhoneNumber,
+                    // info : inputUsernamePassword,
+                    // userPassword : inputEmailPassword,
+                    }),
+                success:function(data,statusCode,timestamp){
+                    window.location = "/listMember"
+                    // alert("day la data" + JSON.stringify(data) )
+                    // alert("day la time" + JSON.stringify(timestamp))
+                    // alert("day la code" + statusCode)
+                    
+                    }   
+                });
+
+            })
+
+            // $("#seeUsernameButtonId").click(function(){
+            //     $("#inputUserNameId").val($("#inputLastNameId").val() + $("#inputFirstNameId").val() );
+
+
+
+            // });
+});
+
+		
+	</script>
+</head>
+<body>
+	<h3>Name</h3><hr>
+	<input type="text" name="inputName" id="inputNameId">
+	<h3>Nickname</h3><hr>
+	<input type="text" name="inputNickname" id="inputNicknameId">
+	<h3>Age</h3><hr>
+	<input type="text" name="inputAge" id="inputAgeId">
+	<button id="buttonId">save</button>
+	
+
+</body>
+</html>

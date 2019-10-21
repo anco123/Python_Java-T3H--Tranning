@@ -106,3 +106,9 @@ def forms_view(request):
 class DjangoClassSerializerView(viewsets.ModelViewSet):
     queryset  = DjangoClass.objects.all()
     serializer_class = DjangoClassSerializer
+
+def add_members_view(request):
+    return render(request, 'static/addMember.html')
+
+def list_members_view(request):
+    return render(request, 'static/jSonTest.html')

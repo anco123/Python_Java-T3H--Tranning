@@ -9,8 +9,11 @@ from djangoapp1.views import (
     django_class_view,
     all_view,
     forms_view,
-    DjangoClassSerializerView
-    # raw_html_view
+    DjangoClassSerializerView,
+    # raw_html_view,
+    list_members_view,
+    add_members_view,
+
     
 )
 from rest_framework import routers
@@ -29,5 +32,7 @@ urlpatterns = [
     path('form/',forms_view),
     # path('raw/',raw_html_view),
     path('dataJson/', include(router.urls)), #  trong link url'' có một số keyword không được phép đặt, ví dụ như 'api nếu như đặt nó sẽ không nhận url đó'
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path('listMember/', list_members_view),
+    path('addMember/', add_members_view),
 ]
