@@ -5,6 +5,8 @@ from django.template import loader
 from .forms import DjangoClassForm
 from rest_framework import viewsets
 from djangoapp1.serializers import DjangoClassSerializer
+from rest_framework.views import APIView
+from rest_framework.response import Response
 
 
 def post_comment(request, new_comment):
@@ -112,3 +114,10 @@ def add_members_view(request):
 
 def list_members_view(request):
     return render(request, 'static/jSonTest.html')
+
+class authenView(APIView):
+	# permission_classes = (IsAuthenticated,)
+
+	def get(self, request):
+		content = {"message":"Hello"}
+		return Response(content)

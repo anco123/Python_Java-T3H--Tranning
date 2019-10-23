@@ -40,8 +40,18 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django1',
     'rest_framework',
+    'rest_framework.authtoken',
 
 ]
+
+# REST_FRAMEWORK = {
+#     'DEFAULT_AUTHENTICATION_CLASSES': (
+#         'rest_framework.authentication.TokenAuthentication',
+#     ),
+#     'DEFAULT_PERMISSION_CLASSES': (
+#         'rest_framework.permissions.IsAuthenticated', )
+# }
+# bf468038a67f823a63b6f706573b47962572fce5
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -72,6 +82,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'django1.wsgi.application'
+
+
 
 
 # Database

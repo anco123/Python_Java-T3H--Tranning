@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#buttonId").click(function() {
+				e.preventDefault();
+				var userNameVar = $("#userNameId").val()
+				var passwordVar = $("#passwordId").val()
+				$.ajax({
+					url:'http://127.0.0.1:8000/dataJson/class/',
+		            type:'POST',
+		            dataType: "json",
+		            
+		            contentType: "application/json; charset=utf-8",
+		            dataType: "json",
+		            data: JSON.stringify({
+		                username : userNameVar, 
+		                password : passwordVar,
+		                }),
+		            success:function(data,statusCode,timestamp){
+		                window.location = "/listMember"
+		                alert("day la data" + JSON.stringify(data) )
+		                alert("day la time" + JSON.stringify(timestamp))
+		                alert("day la code" + statusCode)
+                    error(function() {
+                    	alert("dang nhap that bai")
+                    });
+                    }
+				})
+				
+				
+
+			});
+		});
+	</script>
+</head>
+<body>
+	<form>
+		<div align="center-block">
+			<input type="text" id="userNameId" >
+			<input type="text" id="passwordId">
+			<button id="buttonId">Dang nhap</button>
+		</div>
+	</form>
+	
+
+</body>
+</html>
