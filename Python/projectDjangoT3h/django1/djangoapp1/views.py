@@ -115,6 +115,14 @@ def add_members_view(request):
 def list_members_view(request):
     return render(request, 'static/jSonTest.html')
 
+def list_members_view(request):
+    return render(request, 'static/jSonTest.html')
+
+def loginView(request):
+    return render(request, 'static/login.html')
+
+
+
 class authenView(APIView):
 	# permission_classes = (IsAuthenticated,)
 

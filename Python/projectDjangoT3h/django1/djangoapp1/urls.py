@@ -13,8 +13,7 @@ from djangoapp1.views import (
     # raw_html_view,
     list_members_view,
     add_members_view,
-
-
+    loginView,
     
 )
 
@@ -41,4 +40,5 @@ urlpatterns = [
     path('addMember/', add_members_view),
     path('authen/', views.authenView.as_view()),
     path('api-token-auth/', obtain_auth_token),
+    path('login/',loginView),
 ]

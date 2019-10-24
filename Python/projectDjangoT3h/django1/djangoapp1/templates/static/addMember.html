@@ -10,12 +10,8 @@
                 e.preventDefault();
                 var inputName = $("#inputNameId").val();
                 var inputNickname = $("#inputNicknameId").val();
-                // var inputUserName = $("#inputUserNameId").val();
 
                 var inputAge = $("#inputAgeId").val();
-                // var inputPhoneNumber = $("#inputPhoneNumberId").val();
-                // var inputEmailPassword = $("#inputEmailPasswordId").val();
-                // var inputUsernamePassword = $("#inputUsernamePasswordId").val();
 
                 
                 // alert(inputEmailPassword)
@@ -31,9 +27,6 @@
                     nickname : inputNickname,
                     // cn: inputUserName,
                     age : inputAge,
-                    // telephoneNumber : inputPhoneNumber,
-                    // info : inputUsernamePassword,
-                    // userPassword : inputEmailPassword,
                     }),
                 success:function(data,statusCode,timestamp){
                     window.location = "/listMember"
@@ -42,7 +35,6 @@
                     // alert("day la code" + statusCode)
                     
                     }   
-                error: 
                 });
 
             })

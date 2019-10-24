@@ -8,7 +8,7 @@
 		<!-- <input type="hidden" id="csrf_token" value='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'> -->
 <!-- </form> -->
 
-<form action="." method="GET" > {% csrf_token %}
+<form action="." method="GET"> {% csrf_token %}
 	<input type="text" name="title" placeholder="enter some value">
 	<input type="submit" value="save">
 	{{title}}
