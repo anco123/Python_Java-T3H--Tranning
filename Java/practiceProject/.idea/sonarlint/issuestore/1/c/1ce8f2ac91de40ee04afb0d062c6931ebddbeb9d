@@ -1,13 +1,13 @@
 
-T
-squid:S106*"9Replace this use of System.out or System.err by a logger.(ÖŸX8†äœÛ-
-Csquid:S1659"&Declare "filePath" on a separate line.(ø†¿u8†äœÛ-
-esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(åßÒù
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(Ä·®8†äœÛ-
-Bsquid:S1659"%Declare "content" on a separate line.(ø†¿u8†äœÛ-
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(å¿ùæ8†äœÛ-
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯ÿœ®
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(Æ“ˆÈ8†äœÛ-
+T
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ÖŸX8†äœÛ-
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(åßÒù
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯ÿœ®
+Csquid:S1659"&Declare "filePath" on a separate line.(ø†¿u8†äœÛ-
+Bsquid:S1659"%Declare "content" on a separate line.(ø†¿u8†äœÛ-
