@@ -13,4 +13,8 @@ public class HelloWorldServiceClient {
         helloWorld.sayHi("Hello world!");
 
     }
+
+    public HelloWorldServie getHelloWorld() {
+        return helloWorld;
+    }
 }

@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------------------------------------------------------
  bu?i 17/8:
-- inmutable v� mutable
+- inmutable và mutable
 - git branches
 
 
@@ -9,3 +9,16 @@
 
 bu?i 22/10 
 - parameter 
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+buổi 14/11
+- factory design pattern
+- visitor  
++ 
+- decorator design pattern 
++ phân biệt với proxy thì decorator vẫn là thay đổi nhưng chỉ thêm thắt và bôi phết chứ không động vào bản chất, cái gốc như proxy
+- spring boot
++ spring chia ra nhiều loại: spring core, spring contact, spring mvc, web, spring rest, va spring boot dùng để cấu hình performance từ đó tự động cấu hình đẻ việc chạy nhanh hơn, tối ưu hơn
+nợ. các phần của spring Buổi tiếp: spring core, spring contest , template.render. engine, design pattern ví dụ, 

@@ -10,18 +10,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AppRunner {
 
-    @Bean
-    public HelloWorldServie createHelloWorkService(){
-        return new HelloWorldServiceImplementation();
-    }
 
-    @Bean HelloWorldServiceClient createClient(){
-        return new HelloWorldServiceClient();
-
-    }
 
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppRunner.class);
+        AnnotationConfigApplicationContext context =
+                new AnnotationConfigApplicationContext(ApplicationContext.class);
         HelloWorldServiceClient bean = context.getBean(HelloWorldServiceClient.class);
         bean.showMessage();
 
