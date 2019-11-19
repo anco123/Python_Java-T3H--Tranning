@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34d13957-6f01-4647-b8fd-8c6bca269f84" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/sonarlint/issuestore/1/c/1ce8f2ac91de40ee04afb0d062c6931ebddbeb9d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/sonarlint/issuestore/4/c/4c2f8e2a0ca7aa4e3b78874193d2deb9e34a8a45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/sonarlint/issuestore/5/a/5aad606acd4ae8d10a5db5f2c12cbf81cab1d3d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/sonarlint/issuestore/6/5/654b6b5a99affdf8b22851483826ca15fa4dfaf4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/sonarlint/issuestore/c/7/c79f5ec4a51ea1f350e5053cf81dbeb1e6915a02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/sonarlint/issuestore/f/b/fba77e49516a99b6ae2bf9ad7bd97545b4989169" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/sonarlint/issuestore/f/d/fda3ed2482dbf7aaf1d4bc7f4d874210705a97f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/out/production/practiceProject/META-INF/practiceProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/out/production/practiceProject/series1x/example1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/out/production/practiceProject/series1x/example1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/out/production/practiceProject/series1x/example1_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/out/production/practiceProject/series1x/example3_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/out/production/practiceProject/series1x/example3_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/practiceProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/src/series1x/eample1_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/src/series1x/example1_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/src/series1x/example1_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/src/series1x/example1_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/src/series1x/example1_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/src/series1x/example3_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practiceProject/src/series1x/example3_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learningProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learningProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learningProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learningProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learningProject/learningProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learningProject/src/javaKnowedgleExample/number.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learningProject/src/javaKnowedgleExample/passingByvalueAndPassingByReferent.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\work_git\Python_Java-T3H--Tranning\Java\lession learning Project\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Tm3q6sH9UMidS3RGtQwX2bw9bS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34d13957-6f01-4647-b8fd-8c6bca269f84" name="Default Changelist" comment="" />
+      <created>1574051630735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574051630735</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
