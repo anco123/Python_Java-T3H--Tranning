@@ -1,0 +1,8 @@
+25-11-2019:
+anotation - xml-hybrid
+tạo 3 pakage là anotaion congfig - xml ... - hybid ...
+trong 2 pakage đều có 2 class là apprunner và applicaion context
+tạo 1 pakage  là bean và tạo 4 bean là  a,b,c,d
+- autowide(). a gọi b. b gọi c, d gọi a
+khi dùng xml config cần tạo gọi từ bean tạo từ setter, do  property từ bean được config từ contructor phải gọi từ dối tượng đưuọc gọi bằng setter
+- chứng minh khi coonfig bằng annotaion và bằng xml, hibrid bằng cách dùng xml trueowsdc và đưa lệnh vào để có thể từu xml gọi đến cascd component từ annotation, tạo ra nhiều context hay không, cascd context có thể tương tac được với nahu hay ko , contexxt ngang hàng và  netted ??? cha thấy con nhưng con không thể thấy con, , 

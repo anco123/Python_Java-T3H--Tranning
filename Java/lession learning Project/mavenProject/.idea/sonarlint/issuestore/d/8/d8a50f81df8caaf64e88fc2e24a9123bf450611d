@@ -1,4 +1,5 @@
 
 rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùé¦™
+usquid:UselessImportCheck"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ8Ã›ù´ê-
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(øºÑûúÿÿÿÿ8ÂöÈñç-
+squid:S106	"9Replace this use of System.out or System.err by a logger.(øºÑûúÿÿÿÿ8ÂöÈñç-

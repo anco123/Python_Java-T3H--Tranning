@@ -1,2 +1,5 @@
 
 wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úÛ¬Óÿÿÿÿÿ
+ssquid:UselessImportCheck"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Þ8ì½ß´ê-
+ssquid:UselessImportCheck"CRemove this unused import 'comSpringCore.service.HelloWorldServie'.(œ‘‚–øÿÿÿÿ8ì½ß´ê-
+Œsquid:UselessImportCheck"aRemove this unused import 'comSpringCore.service.implementation.HelloWorldServiceImplementation'.(ì„Ü³8ì½ß´ê-
