@@ -21,4 +21,16 @@ buổi 14/11
 + phân biệt với proxy thì decorator vẫn là thay đổi nhưng chỉ thêm thắt và bôi phết chứ không động vào bản chất, cái gốc như proxy
 - spring boot
 + spring chia ra nhiều loại: spring core, spring contact, spring mvc, web, spring rest, va spring boot dùng để cấu hình performance từ đó tự động cấu hình đẻ việc chạy nhanh hơn, tối ưu hơn
-nợ. các phần của spring Buổi tiếp: spring core, spring contest , template.render. engine, design pattern ví dụ, 
+nợ. các phần của spring 
+Buổi tiếp: spring core, spring contest , template.render. engine, design pattern ví dụ, 
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+buổi 14/11
+- config spring core bằng annotation
+- bean, dependence injection 
+
+--------------------------------------------------------------------------------------------------------------------------------
+buổi 26/11
+
+- config Spring core bằng xml và hybrid(cả 2 cái)

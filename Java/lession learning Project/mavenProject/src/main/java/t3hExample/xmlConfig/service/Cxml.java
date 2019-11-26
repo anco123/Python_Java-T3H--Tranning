@@ -1,4 +1,4 @@
-package t3h_example_abcd_config.xmlConfig.service;
+package t3hExample.xmlConfig.service;
 
 public class Cxml {
     public Cxml(){

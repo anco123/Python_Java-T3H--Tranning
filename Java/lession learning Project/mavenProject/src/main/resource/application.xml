@@ -6,17 +6,19 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <bean id="beanCxml" class="t3hExample.xmlConfig.service.Cxml"></bean>
 
-
-    <bean id="beanAxml" class="t3h_example_abcd_Config.xmlConfig.client.Axml">
-        <constructor-arg ref="beanBxml"/>
-    </bean>
+    <bean id="beanDxml" class="t3hExample.xmlConfig.service.Dxml"></bean>
 
     <bean id="beanBxml" class="t3h_example_abcd_Config.xmlConfig.client.Bxml">
         <constructor-arg ref="beanCxml"/>
         <constructor-arg ref="beanDxml"/>
     </bean>
-    <bean id="beanCxml" class="t3h_example_abcd_Config.xmlConfig.service.Cxml"></bean>
 
-    <bean id="beanDxml" class="t3h_example_abcd_Config.xmlConfig.service.Dxml"></bean>
+    <bean id="beanAxml" class="t3h_example_abcd_Config.xmlConfig.client.Axml">
+        <constructor-arg ref="beanBxml"/>
+    </bean>
+
+
+
 </beans>
