@@ -8,8 +8,12 @@ public class Bxml {
 
     private Dxml dxmlInstance;
 
-    public Bxml(Cxml cxmlInstance,Dxml dxmlInstance){
-        this.cxmlInstance= cxmlInstance;
+
+    public void setCxmlInstance(Cxml cxmlInstance) {
+        this.cxmlInstance = cxmlInstance;
+    }
+
+    public void setDxmlInstance(Dxml dxmlInstance) {
         this.dxmlInstance = dxmlInstance;
     }
 }

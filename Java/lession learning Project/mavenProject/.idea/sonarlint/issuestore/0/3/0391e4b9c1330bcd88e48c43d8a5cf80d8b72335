@@ -1,0 +1,5 @@
+
+dsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ή—ρ
+Ksquid:S1481	"/Remove this unused "contextXml" local variable.(Μπ†ώÿÿÿÿ
+Zsquid:S1854	">Remove this useless assignment to local variable "contextXml".(Μπ†ώÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(πλπ

@@ -1,0 +1,8 @@
+
+dsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Þ—ñ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôÿçãûÿÿÿÿ
+squid:UselessImportCheck"`Remove this unused import 'org.springframework.context.support.FileSystemXmlApplicationContext'.(ÀŽãûÿÿÿÿ8Ä²±‡ë-
+Rsquid:S1481
+"/Remove this unused "contextXml" local variable.(øãý“ûÿÿÿÿ8»™³‡ë-
+asquid:S1854
+">Remove this useless assignment to local variable "contextXml".(øãý“ûÿÿÿÿ8»™³‡ë-

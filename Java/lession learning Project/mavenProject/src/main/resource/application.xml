@@ -10,12 +10,12 @@
 
     <bean id="beanDxml" class="t3hExample.xmlConfig.service.Dxml"></bean>
 
-    <bean id="beanBxml" class="t3h_example_abcd_Config.xmlConfig.client.Bxml">
-        <constructor-arg ref="beanCxml"/>
-        <constructor-arg ref="beanDxml"/>
+    <bean id="beanBxml" class="t3hExample.xmlConfig.client.Bxml">
+        <property name="cxmlInstance" ref="beanCxml"/>
+        <property name="dxmlInstance" ref="beanDxml"/>
     </bean>
 
-    <bean id="beanAxml" class="t3h_example_abcd_Config.xmlConfig.client.Axml">
+    <bean id="beanAxml" class="t3hExample.xmlConfig.client.Axml">
         <constructor-arg ref="beanBxml"/>
     </bean>
 
