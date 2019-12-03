@@ -24,6 +24,8 @@ buổi 14/11
 nợ. các phần của spring 
 Buổi tiếp: spring core, spring contest , template.render. engine, design pattern ví dụ, 
 
+
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 buổi 14/11
@@ -34,3 +36,12 @@ buổi 14/11
 buổi 26/11
 
 - config Spring core bằng xml và hybrid(cả 2 cái)
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+buổi 28/11 
+- paramater trong spring core- trong -- những tham số trong quá trình runtime 
+-  spring core - pramatter  - evn, property, command line, bằng os( chú ý chuyển đổi enable để có thể lấy các bean ngoài)
+- paramatter - config  = property
+- paramatter tham số cấu hình jvm- nhóm gái, gc là gì và kiểu config gc cơ bản như thế nào- nhóm phải 
