@@ -20,7 +20,16 @@
             <artifactId>spring-context</artifactId>
             <version>4.2.3.RELEASE</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.18</version>
+        </dependency>
+
     </dependencies>
+
     <properties>
 <!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
         <maven.compiler.source>1.8</maven.compiler.source>

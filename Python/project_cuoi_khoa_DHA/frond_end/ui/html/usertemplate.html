@@ -25,40 +25,62 @@
 
 		<!-- create new dropdown element  that take 1/4 acreage on this view flow horizontal -->
 		<div class="row">
-		  <div class="col-3">
-		    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-		    	
+		  <div class="col-2">
+		    <div class="wrapper">
+			    <!-- Sidebar -->
+				    <nav id="sidebar">
+				        <div class="sidebar-header">
+			            <h3>Bootstrap Sidebar</h3>
+			        </div>
 
-			    
+			        <ul class=" list-unstyled components">
+			            <p>Dummy Heading</p>
+			            <li>
+			                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+			                <ul class="nav flex-column collapse list-unstyled" id="homeSubmenu">
+			                    
+			                    <li>
+			                        <a href="#profile" data-toggle="tab">     Home 2     </a>
+			                    </li>
+			                    <li>
+			                        <a href="#contact" data-toggle="tab">     Home 3     </a>
+			                    </li>
+			                </ul>
+			            </li>
+			            <li>
+			                <a href="#">About</a>
+			            </li>
+			            <li>
+			                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+			                <ul class="collapse list-unstyled" id="pageSubmenu">
+			                    <li>
+			                        <a href="#">Page 1</a>
+			                    </li>
+			                    <li>
+			                        <a href="#">Page 2</a>
+			                    </li>
+			                    <li>
+			                        <a href="#">Page 3</a>
+			                    </li>
+			                </ul>
+			            </li>
+			            <li>
+			                <a href="#">Portfolio</a>
+			            </li>
+			            <li>
+			                <a href="#">Contact</a>
+			            </li>
+			        </ul>
+			    </nav>
 
-		      	<li class="active">
-	                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-	                <ul class="collapse list-unstyled" id="homeSubmenu">
-	                    <li>
-	                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-	                    </li>
-	                    <li>
-	                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-	                    </li>
-	                    <li>
-	                        <a href="#">Home 3</a>
-	                    </li>
-	                </ul>
-	            </li>
-
-
-			    <!-- <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a> -->
-			    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-			    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-		    </div>
+			</div>
 		  </div>
-		  <div class="col-9">
-		    <div class="tab-content" id="v-pills-tabContent">
-		      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">this is first tab</div>
-		      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">this is second tab</div>
-		      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">this is third tab</div>
-		      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">this is four tab</div>
-		    </div>
+		  <div class="col-10">
+		    <div class="tab-content" id="myTabContent">
+	  				<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+	 		 		<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">.one .</div>
+	 				 <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">..two.</div>
+			</div>
 		  </div>
 		</div>
 		

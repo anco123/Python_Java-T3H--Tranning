@@ -1,12 +1,0 @@
-
-csquid:S1854"@Remove this useless assignment to local variable "bxmlInstance".(ñõ¯åýÿÿÿÿ8è³í¸ê-
-Tsquid:S1481"1Remove this unused "dxmlInstance" local variable.(÷³£ñüÿÿÿÿ8è³í¸ê-
-Tsquid:S1481"1Remove this unused "bxmlInstance" local variable.(ñõ¯åýÿÿÿÿ8è³í¸ê-
-dsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Þ—ñ
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‡å—º8–ãî¸ê-
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ó¾åûÿÿÿÿ
-csquid:S1854"@Remove this useless assignment to local variable "dxmlInstance".(÷³£ñüÿÿÿÿ8è³í¸ê-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ØÎÆ¼ýÿÿÿÿ8äØ¹ê-
-csquid:S1854"@Remove this useless assignment to local variable "cxmlInstance".(áÈß¯úÿÿÿÿ8è³í¸ê-
-Tsquid:S1481"1Remove this unused "cxmlInstance" local variable.(áÈß¯úÿÿÿÿ8è³í¸ê-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€™÷¯8óÌ‘¹ê-
