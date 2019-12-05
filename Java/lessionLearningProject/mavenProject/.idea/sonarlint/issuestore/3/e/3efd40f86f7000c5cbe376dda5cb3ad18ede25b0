@@ -1,0 +1,13 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(£ßâœûÿÿÿÿ8êÔ¢í-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘¨›ãıÿÿÿÿ8êÔ¢í-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ğâë¢í-
+Fsquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8êÔ¢í-
+Psquid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ8Ğâë¢í-
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÍÆ·üÿÿÿÿ8©ÿš¢í-
+tsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(‘¨›ãıÿÿÿÿ8êÔ¢í-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(³…Õğüÿÿÿÿ8êÔ¢í-
+Csquid:S2068" Remove this hard-coded password.(¡›µÿùÿÿÿÿ8êÔ¢í-

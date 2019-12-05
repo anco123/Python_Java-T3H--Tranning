@@ -1,0 +1,12 @@
+
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(­¥ßÝ8‰÷°×ì-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ø°ÅÌ8èê±×ì-
+Lsquid:S1481@".Remove this unused "statement" local variable.(Æõ“‰8ºàñÖì-
+tsquid:S2068"V'PASSWORD' detected in this expression, review this potentially hard-coded credential.(Ö¹8Ü™¬Øì-
+isquid:UselessImportCheck	"9Remove this unused import 'java.text.BreakIterator.DONE'.(¶œÇìûÿÿÿÿ8øüÆÕì-
+msquid:S2095@"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Æõ“‰8ºàñÖì-
+Fsquid:S1148*"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8×Ô®Õì-
+Fsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ºàñÖì-
+Fsquid:S11487"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8×Ô®Õì-
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÍÆ·üÿÿÿÿ8£Þ·Õì-
+tsquid:S2068"V'password' detected in this expression, review this potentially hard-coded credential.(‹›Æî8ÝòÞ¡í-
