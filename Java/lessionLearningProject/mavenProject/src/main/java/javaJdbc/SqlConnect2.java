@@ -18,15 +18,20 @@ public class SqlConnect2 {
 // Buoc 4: Thuc thi truy van
             ResultSet rs = stmt.executeQuery("SELECT * FROM student1");
 
-            while(rs.next())
+            while(rs.next()) {
+//                System.out.println(rs);
 //                    System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getString(3)+ rs.getInt(4));
-//                String  = rs.getString("name");
+//            System.out.println(rs.getInt("id"));
+                String name = rs.getString("name");
+                int id = rs.getInt("id");
+                System.out.println(name);
+                System.out.println(id);
 //
 //            // Hien thi cac gia tri
 //            System.out.print("\nMSSV: " + name);
 
 // Buoc 5: Dong doi tuong Connection
-                if (con != null) {
+            }if (con != null) {
                     System.out.println("Connected to the database!");
                 } else {
                     System.out.println("Failed to make connection!");
