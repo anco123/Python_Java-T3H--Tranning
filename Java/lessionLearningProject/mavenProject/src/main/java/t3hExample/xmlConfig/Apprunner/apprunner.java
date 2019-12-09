@@ -11,6 +11,7 @@ public class apprunner {
 
     public static void main(String[] args) {
         ApplicationContext contextXml = new ClassPathXmlApplicationContext("application.xml");
+
         
 
 
