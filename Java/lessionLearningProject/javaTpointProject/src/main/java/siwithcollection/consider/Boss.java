@@ -1,8 +1,8 @@
 package siwithcollection.consider;
 
-public class Boot {
-    public Boot(){
-        System.out.println("this is Boot");
+public class Boss {
+    public Boss(){
+        System.out.println("this is Boss");
     };
 
 
