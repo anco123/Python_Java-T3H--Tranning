@@ -8,6 +8,6 @@
     <title>Hello World Java EE</title>
 </head>
 <body>
-<h1>Hello JSP and Servlet!</h1>
+<h1>Hello just jsp not servlet</h1>
 </body>
 </html>
