@@ -5,20 +5,40 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionUtils {
+    private static String dbUrl = "jdbc:mysql://localhost:3311/dataachung";
+    private static String userName = "root";
+    private static String password = "root";
+    private static String dbDriver = "org.mariadb.jdbc.Driver";
+    private static Connection connection;
+
+
     public static Connection getMySQLConnection() throws SQLException, ClassNotFoundException {
-//        String dbDriver = "org.mariadb.jdbc.Driver";
-        String dbUrl = "jdbc:mysql://localhost:3311/dataachung";
-        String userName = "root";
-        String password = "root";
-        return getMySQLConnection(dbUrl,userName,password);
+//        String ";
+//        Class.forName(dbDriver);
 
+        Connection connection = DriverManager.getConnection(dbUrl, userName, password);
+
+        return connection;
+    }
+    public static Connection getSQLConnection() {
+        try {
+
+            if (connection == null || connection.isClosed())
+            {
+
+
+                Class.forName(dbDriver);
+                connection = DriverManager.getConnection(dbUrl,userName,password);
+            }
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+//        LOGGER.info(dbConfig.toString());
+
+        return connection;
     }
 
-    public static Connection getMySQLConnection(String dbUrl, String userName, String password) throws SQLException,ClassNotFoundException {
-        Connection conn = DriverManager.getConnection(dbUrl, userName, password);
 
-        return conn;
-    }
 
 
 }

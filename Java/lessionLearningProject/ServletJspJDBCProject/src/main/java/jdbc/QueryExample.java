@@ -6,6 +6,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class QueryExample {
+
+
     public static void main(String[] args) throws ClassNotFoundException, SQLException{
         Connection connection = ConnectionUtils.getMySQLConnection();
         Statement statement = connection.createStatement();
