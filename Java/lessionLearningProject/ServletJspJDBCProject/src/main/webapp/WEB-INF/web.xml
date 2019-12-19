@@ -19,5 +19,15 @@
 
     </welcome-file-list>
 
+    <servlet>
+        <servlet-name>myFoo</servlet-name>
+        <jsp-file>/view/_viewlistcustomer.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myFoo</servlet-name>
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+
+
 
 </web-app>

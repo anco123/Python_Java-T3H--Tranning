@@ -7,7 +7,7 @@ public class CustomerModel {
     public int phone;
     public String city;
 
-    public CustomerModel(String customerName, String contactLastName, int phone, String city) {
+    public CustomerModel(int id,String customerName, String contactLastName, int phone, String city) {
         this.customerName = customerName;
         this.contactLastName = contactLastName;
         this.phone = phone;
