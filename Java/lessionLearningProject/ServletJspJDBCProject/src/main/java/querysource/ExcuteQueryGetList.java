@@ -14,13 +14,13 @@ import java.util.List;
 public class ExcuteQueryGetList implements CustomersService{
     public Connection connection = ConnectionUtils.getSQLConnection();
 
-    public Connection getConnection() {
-        return connection;
-    }
-
-    public void setConnection(Connection connection) {
-        this.connection = connection;
-    }
+//    public Connection getConnection() {
+//        return connection;
+//    }
+//
+//    public void setConnection(Connection connection) {
+//        this.connection = connection;
+//    }
 
     @Override
     public List<CustomerModel> listCustomers() {
@@ -44,11 +44,16 @@ public class ExcuteQueryGetList implements CustomersService{
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
+            closeAll.closeConnection(connection);
             closeAll.closeStatement(stm);
             closeAll.closeResultSet(rs);
 
         }
     return listCustommers;
+    }
+
+    public static void main(String[] args) {
+        System.out.println();
     }
 
 //
