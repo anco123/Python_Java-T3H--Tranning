@@ -6,7 +6,7 @@
     <display-name>ServletTutorial</display-name>
     <servlet>
         <servlet-name>servletTest</servlet-name>
-        <servlet-class>test.servletTest</servlet-class>
+        <jsp-file>new.jsp</jsp-file>
     </servlet>
     
     <servlet-mapping>

@@ -17,18 +17,8 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class servletTest extends HttpServlet {
-//    public servletTest() {
-//
-//    }
 
-    private CustomersService customersService;
 
-    public void init() {
-        customersService = new ExcuteQueryGetList();
-    }
-
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
 //        ServletOutputStream out = resp.getOutputStream();
 //        out.println("<html>");
@@ -36,6 +26,15 @@ public class servletTest extends HttpServlet {
 //        out.println("<body><h1>Hello world, this is body </h1></body>");
 //        out.println("</html>");
 
+//    public servletTest() {
+//
+
+
+        CustomersService customersService;
+
+        public void init() {
+            customersService = new ExcuteQueryGetList();
+        }
 
 //        try {
 //            Connection connection = ConnectionUtils.getMySQLConnection();
@@ -49,9 +48,10 @@ public class servletTest extends HttpServlet {
 //            RequestDispatcher dispatcher = req.getRequestDispatcher("view/servletTag.jsp");
 //            dispatcher.forward(req, resp);
 //        }
-
-        List<CustomerModel> list = customersService.listCustomers();
-        req.setAttribute("viewListCustomer", list);
+        @Override
+        protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        List<CustomerModel> listCustomers = customersService.listCustomers();
+        req.setAttribute("viewListCustomer", listCustomers);
 //
         String task = req.getRequestURI().substring(req.getContextPath().length());
         if ("/home".equals(task)) {
@@ -61,9 +61,11 @@ public class servletTest extends HttpServlet {
         }
 
 
+
 //    @Override
 //    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        this.do(req,resp);
 //    }
+
     }
 }
